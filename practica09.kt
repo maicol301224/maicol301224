@@ -7,7 +7,7 @@ fun fibonacci(n: Int): Int {
 }
 
 fun sumaRecursiva(n: Int) {
-    return if (n: <= 1) {
+    return if (n <= 1) {
         1
     } else {
         n + sumaRecursiva(n-1)
@@ -22,7 +22,7 @@ fun sumaLista(lista: List<Int>): Int {
     }
 }
 
-fun main(a rgs: Array<String>) {
+fun main(args: Array<String>) {
     //Ejemplo de Fibonacci
     val numero = 15
     val numeroLista = listOf(1, 2, 3, 4)
